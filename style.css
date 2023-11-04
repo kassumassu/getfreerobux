@@ -1,0 +1,15 @@
+@keyframes anima {
+    from {
+        transform: translateX(-300px); 
+    } 
+    to {
+        transform: translateX(0px); 
+    }
+} 
+.a1 {
+    animation-name: anima; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    color: blue; 
+    font-size: 150px; 
+} 
